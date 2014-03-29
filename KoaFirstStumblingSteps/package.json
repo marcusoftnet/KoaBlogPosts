@@ -1,0 +1,21 @@
+{
+  "name": "KoaFirstStumblingSteps",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/nodemon/bin/nodemon.js --harmony firstKoaSite.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "koa": "~0.5.2",
+    "koa-route": "~1.1.1",
+    "monk": "*",
+    "co-monk": "*",
+    "co-body": "*"
+  },
+  "devDependencies": {
+    "nodemon": "~1.0.17"
+  }
+}
