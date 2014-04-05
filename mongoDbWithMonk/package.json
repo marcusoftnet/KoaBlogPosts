@@ -1,0 +1,26 @@
+{
+  "name": "mongoCRUDApiKoa",
+  "description": "Examples of a CRUD api against Mongo",
+  "version": "0.0.1",
+  "dependencies": {
+    "co": "^3.0.0",
+    "co-body": "0.0.1",
+    "koa-route": "^1.0.2",
+    "koa": "^0.5.0",
+    "monk": "~0.7.1",
+    "co-monk": "~0.0.1"
+  },
+  "devDependencies": {
+    "co": "*",
+    "mocha": "*",
+    "should": "*",
+    "supertest": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --harmony-generators --reporter spec test.js"
+  },
+  "engines": {
+    "node": ">= 11.3"
+  },
+  "license": "MIT"
+}
